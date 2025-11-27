@@ -5,6 +5,7 @@ import org.gradle.api.Project
 
 class LibraryComposeConvention : Plugin<Project> {
     override fun apply(target: Project) {
+
         target.run {
             applyPlugins()
             libraryGradle {
@@ -16,6 +17,7 @@ class LibraryComposeConvention : Plugin<Project> {
     private fun Project.applyPlugins() {
         pluginManager.apply {
             apply("com.android.library")
+            apply("org.jetbrains.kotlin.plugin.compose")
         }
     }
 

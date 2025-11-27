@@ -8,6 +8,7 @@ internal fun Project.composeGradleExtension(
     commonExtension: CommonExtension<*, *, *, *, *, *>,
 ) {
     commonExtension.apply {
+
         buildFeatures {
             compose = true
         }
