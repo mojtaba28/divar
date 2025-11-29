@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Divar">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.divar.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Divar">
